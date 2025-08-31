@@ -14,5 +14,5 @@ scikit-learn
 PyPDF2
 textblob
 openai
-
+python-dotenv
 
