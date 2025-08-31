@@ -43,7 +43,7 @@ This project is a **Stock Prediction Dashboard** that provides insights into fut
 
 ### Note
 
-- create .env file a provide the API_KEY
+- create .env file and provide the API_KEY
 - install requirements.txt file
 - run app.py file
 - input : stock symbol and pdf ( sample pdf is there in uploads folder - StockPrediction\uploads)
