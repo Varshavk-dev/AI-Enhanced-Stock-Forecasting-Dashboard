@@ -41,7 +41,7 @@ This project is a **Stock Prediction Dashboard** that provides insights into fut
 
 ---
 
-### Note
+### Setup Steps
 
 - create .env file and provide the API_KEY
 - install requirements.txt file
@@ -51,7 +51,7 @@ This project is a **Stock Prediction Dashboard** that provides insights into fut
 
   
 
-## ▶️ How to Run  
+## How to Run  
 
 1. Clone this repository:  
    ```bash
