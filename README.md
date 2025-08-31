@@ -1,3 +1,6 @@
+<img src="images/first dashboard.png" alt="Dashboard" width="500">
+
+
 # AI - ENHANCED - STOCK - FORCASTING - DASHBOARD
 
 This project is a **Stock Prediction Dashboard** that provides insights into future stock prices using **Machine Learning forecasting** and **AI-based Sentiment Analysis**. The system combines **technical data forecasting** with **sentiment analysis of financial reports** to generate actionable recommendations: **Buy, Sell, or Hold**.
