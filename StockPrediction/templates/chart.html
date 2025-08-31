@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Line Chart</title>
+    <style>
+        header{
+            position: relative;
+            display:flex;
+            justify-content: center;
+        }
+        div{
+            height: 500px;
+            width: 100%;
+            align-items: center;
+        }
+        .a{
+            background-color: rgb(7, 75, 75);
+        }
+        .b{
+            background-color: rgb(114, 232, 232);
+        }
+        footer{
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="font-size: xx-large;color: blueviolet;text-align: center;" >{{recommendation}}</h1>
+    <header>
+    <div class="a">
+    <h3>Sentiment Score : {{ output.SentimentScore }}</h3>
+    <h3>Summary : {{ output.Summary }}</h3>
+    <h3>Trend Bias : {{ output.TrendBias }}</h3>
+    </div>
+    <div class="b">
+    <h3>Stock name : {{ results_stock.symbol }}</h>3
+    <h3>next 7 day stock price :</h2><p> {{ results_stock.forecast }} </p>
+    <h3>Mean Square error: {{ results_stock.MAE }}</h3>
+    <h3>RMSE: {{ results_stock.RMSE }}</h3>
+    <h3 style="color: brown;">Treand: {{ results_stock.trend }}</h3>
+    </div>
+    </header>
+    <h2 style="text-align: center;">Line Chart</h2>
+    <footer>
+    <img style="text-align: center;" src="data:image/png;base64,{{ chart_data }}" alt="Line Chart">
+    </footer>
+</body>
+</html>
